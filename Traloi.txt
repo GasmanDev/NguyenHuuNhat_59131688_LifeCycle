@@ -1,0 +1,5 @@
+Câu 4: Phương thức vòng đời được gọi khi ứng dụng đang chạy và người sử
+dụng bấm vào nút back sau đó mở lại ứng dụng là: onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume
+Câu 5:Phương thức vòng đời được gọi khi ứng dụng đang chạy và người sử
+dụng bấm vào nút home và sau đó mở lại ứng dụng là: onPause -> onStop -> onRestart -> onStart -> onResume
+Câu 6: Nên lưu ở phương thức onPause. Vì trong trạng thái này có thể bị hệ thống kill.
